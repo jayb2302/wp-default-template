@@ -6,19 +6,20 @@
 
 <article id="post-<?php the_ID(); ?>">
     <header class="entry-header">
-        <?php 
-        if ( is_singularr())
+    <?php 
+        if ( is_singular()):
             the_title( '<h1 class=entry-title></h1>' );
         
-    else:
+        else:
             the_title( '<h2 class=entry-title><a href="'.esc_url(get_permalink( )).'">', '</a></h2>' );
+
 
         endif;
         ?>
     </header>
 
         <?php
-            if (is_home(|| is_archive(  ))):
+            if (is_home()|| is_archive(  )):
         ?>
 
     <?php 
@@ -32,9 +33,11 @@
     </div>
     <?php elseif( is_single() ):?>
     <div class="entry-content">
-        <?php the_content(  );
-        'before' => '<div class="page-links">' . esc_html__('Pages:','wp-default-templ'),
-        'after' -> '</div>'
+        <?php the_content(  ); array(
+        'before' => '<div class="page-links">' . esc_html( 
+        'Pages','wp-template-default'
+        ),
+        'after' => '</div>',)
         ?>
     </div>
     <?php endif;?>
@@ -45,3 +48,10 @@
 
 </article>
 <?php the_ID(  ); ?>
+
+<?php 
+/**
+ * Template part for displaying posts
+ */
+?>
+
