@@ -28,7 +28,7 @@
         <footer class="entry-footer">
             <?php 
                 edit_post_link( 
-                    sprintf(
+                    sprintf( 
                         wp_kses(
                             __( 'Edit <span class="screen-reader-text">%s</span>'),
                                 array(
