@@ -16,7 +16,8 @@ get_header();
             get_template_part( 'template-parts/post/content', get_post_format(  ) );
         endwhile;
         // if comments are open then we show the comments template
-        if(comments_open()|| get_comments_number( ));
+        if(comments_open() || get_comments_number( )) :
+        comments_template();
         endif;
         ?>
     </main>
