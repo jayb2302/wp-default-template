@@ -7,19 +7,7 @@ get_header( );
 
 <div id="primary" class="content-area">
     <main id="main" class="site-area">
-        <nav id="navbar">
-            <ul id="navbarul">
-                <li id="navbarli">
-                    <a href="">Home</a></a> 
-                </li>
-                <li id="navbarli">
-                    <a href="">About Me</a> 
-                </li>
-                <li id="navbarli">
-                    <a href="">Contact</a> 
-                </li>
-            </ul>
-        </nav>
+        
     <div id="section1" class="sections-style">
         <div id="textbox1" class="textboxes">
             <h1>This is my theme</h1>
