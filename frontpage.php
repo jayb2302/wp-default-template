@@ -7,7 +7,7 @@ get_header( );
 
 <div id="primary" class="content-area">
     <main id="main" class="site-area">
-        <nav>
+        <!-- <nav>
             <div class="logo">
                 <?php
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
@@ -35,7 +35,7 @@ get_header( );
                     get_search_form(  );
                 ?>
             </div>
-        </nav>
+        </nav> -->
     <div id="section1" class="sections-style">
         <div id="textbox1" class="textboxes">
             
